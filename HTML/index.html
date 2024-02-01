@@ -1,6 +1,8 @@
 <HTML>
  <HEAD>
   <link rel="stylesheet" type="text/CSS" href="../CSS/style.CSS">
+  
+  <script type="text/javascript"src="../JAVASCRIPT/functions.js"></script>
   <TITLE> Mi primera pagina </TITLE>
  </HEAD>
  <BODY>
@@ -22,7 +24,7 @@
    <img class="img-cars" src="../IMAGES/pngwing.com.png">
    <img src="https://img.freepik.com/vector-premium/perro-feliz-dibujos-animados_29190-4218.jpg?w=740">
    <img class="img-pat" src="../IMAGES/Pat.jpg">
-   <h2> Materias </h2>
+   <h2 id="palabrita"> Materias </h2>
    <ul> 
       <li> Probabilidad y estadistica</li>
       <li> Filosofia</li>
@@ -30,7 +32,7 @@
       <li> Calculo</li>
    </ul>
   
-   <h4> Mi top de materias favoritas </h4>
+   <h4 id="palabra"> Mi top de materias favoritas </h4>
    <ol>
        <li> El recreo </li>
        <li> La salida </li>
@@ -53,6 +55,6 @@
    <tr>
    </table>
    
-   <button style=color:#053A76> hola, haz clic </button>
+   <button style=color:#053A76 onclick="changeColor()"> hola, haz clic </button>
  </BODY>
 </HTML>
