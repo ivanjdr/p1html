@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>
+      PRUEBA DE DIVICIONES
+    </title>
+</head>
+<body>
+<h1>
+    TEMA PRINCIPAL
+</h1>
+<h2>
+    HACIENDO PRUEBAS
+</h2>
+<main>
+    <article>
+        ARTICULO
+    </article>
+    <section>
+        SECCION
+    <aside>
+        BARRA LATERAL
+    </aside>
+</main>
+<footer> Pie de pagina </footer>
+
+</body>
+</html>
