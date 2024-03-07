@@ -1,0 +1,188 @@
+div {
+    /* border-style: groove; */
+}
+
+body {
+    background-color: #aafafa;
+    margin: 0;
+}
+
+p, a, button {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    border: none;
+}
+
+.box {
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    width: 60%;
+    box-shadow: 1px 1px 20px 10px #8f8e90;
+    text-align: center;
+    margin: auto;
+    /* max-width: 80rem; */
+    /* padding: 0 5rem; */
+}
+
+.container_icons {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.icon {
+    width: 40px;
+    border: 1px solid gainsboro;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 7px;
+    cursor: pointer;
+}
+
+.text {
+    text-align: center;
+    color: #ff8899;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+
+.inputs {
+    height: 35px;
+    background-color: #dddddd;
+    /* border: none; */
+    border:1px solid #ffffff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    width: 26rem;
+}
+
+.inputs:focus {
+    background-color: lightblue;
+    outline: none !important;
+    border:1px solid #999999;
+    box-shadow: 0 0 10px #6b6c6d;
+}
+
+.form a {
+    color: #bbbbbb;
+    text-align: center;
+    /* margin: 15px 0; */
+}
+
+.container_button {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    width: 150px;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btninit {
+    background-color: #607def;
+    border: none;
+    margin: 25px 0;
+}
+
+.button:hover {
+    box-shadow: 0 0 10px #6b6c6d;
+}
+
+.titulo_iniciar {
+    font-size: 35px;
+}
+
+h1 {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.container_iniciar, .container_crear {
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+}
+
+.iniciar {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 5rem 20px;
+}
+
+.hola {
+    width: 50%;
+    background-color: #607def;
+    border-radius: 90px 30px 30px 90px;
+
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 5rem 20px;
+}
+
+.container_hola {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 0;
+}
+
+.titulo_hola {
+    color: #ffffFF;
+    margin: 0;
+}
+
+.hola p {
+    color: red;
+    margin: 1rem 0;
+}
+
+.button2 {
+    
+}
+
+.btncrear {
+    background-color: transparent;
+    border: 2px solid #5974a7;
+    margin-top: 1rem;
+}
+
+.button2:hover {
+    box-shadow: 0 0 10px #ffffff;
+}
+
+.carousel-inner {
+    height: 150px;
+    margin-top: 15px;
+}
+
+.container_carousel img {
+    object-fit: fill;
+}
+
+.glyphicon {
+    font-size: 90px;
+
+}
+.div nav nav-pills pull-right
