@@ -149,12 +149,12 @@ h1 {
 }
 
 .titulo_hola {
-    color: #ffffFF;
+    color: #ffffff;
     margin: 0;
 }
 
 .hola p {
-    color: red;
+    color: rgb(255, 255, 255);
     margin: 1rem 0;
 }
 
